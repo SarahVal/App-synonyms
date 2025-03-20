@@ -1,0 +1,4 @@
+{
+        "Animaux": ["Chat", "Chien", "Oiseau"],
+        "Transports": ["Voiture", "Avion", "Bateau"]
+    }
