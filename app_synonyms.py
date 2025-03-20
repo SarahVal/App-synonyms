@@ -6,7 +6,7 @@ import os
 
 # Load preselected words from a JSON file passed as a command-line argument
 
-with open(synonyms_to_check.json, "r") as f:
+with open(".data/synonyms_to_check.json", "r") as f:
     preselected_words = json.load(f)
 # Extract categories dynamically from the dictionary keys
 categories = list(preselected_words.keys())
